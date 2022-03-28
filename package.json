@@ -1,0 +1,14 @@
+{
+  "name": "drive-aegis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^99.0.0",
+    "node-fetch": "^3.2.3"
+  }
+}
