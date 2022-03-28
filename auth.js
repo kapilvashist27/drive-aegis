@@ -9,14 +9,14 @@ const auth = new google.auth.GoogleAuth({
 })
 
 
-async function token() {
-    const data = await auth.getAccessToken();
-    // console.log(data);
-    return data;
-}
+// async function token() {
+//     const data = await auth.getAccessToken();
+//     // console.log(data);
+//     return data;
+// }
 
-token();
+// token();
 
 const driveService = google.drive({ version: "v3", auth });
 
-module.exports = { driveService, token };
+module.exports = { driveService};
